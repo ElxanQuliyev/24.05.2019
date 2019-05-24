@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.qutular{
+    width: 1140px;
+    display: flex;
+    margin:auto;
+}
+img{
+    width:100%
+}
+.qutu{
+    margin-top:40px;
+    margin-right:10px;
+    flex: 1;
+    overflow: hidden;
+    box-shadow: 10px 0 35px rgba(0, 0, 0, 0.1);
+}
+.qutu h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.sekil{
+    position: relative;
+}
+.featured{
+    position: absolute;
+    left: -47px;
+    top: 28px;
+    text-align: center;
+    transform: rotate(-45deg);
+    background: #ff214f;
+    color: #fff;
+    padding: 10px 58px;
+}
+.detail{
+    padding: 15px 20px;
+}
+.detail h1{
+    color:#ff214f;
+
+}
+.detail h1:hover{
+    color: #888;
+    
+}
